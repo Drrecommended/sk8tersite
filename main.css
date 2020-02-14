@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url(assets/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bordered {
+    border-bottom: 1px solid red;
+}
+
+
+#navBar {
+    display: flex;
+    color: white;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 50;
+    margin-top: 20px;
+}
+
+.container {
+    /* flex-direction: column;
+    justify-content: center; */
+    margin: auto;
+    width: 50%;
+}
+
+.wrapper {
+    width: 900px;
+    justify-content: center;
+}
+
+
+
+ul {
+    margin-top: 80px;
+    list-style-type: none;
+    display: flex; 
+    justify-content: space-between;
+    width: 100%;
+    
+
+}    
+
+li {
+    margin: 10px;
+    background-color: red;
+    padding: 10px;
+    
+
+}
+
+
+.dots {
+
+}
+
+
+.dot {
+    height: 25px;
+    width: 25px;
+    background-color: red;
+    border-style: solid;
+    border-color: white;
+    border-radius: 50%;
+    display: inline-block;
+
+}
+
+.banner {
+    background-image: url('assets/top-image.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    border: 5px solid white;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    margin: 0 -5px;
+}
+
+.whiteBox {
+    flex-grow: 1;
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 50px;
+    margin: 5px;
+}
+
+.selectorDots {
+    display: flex;
+    justify-content: center;
+}
+
+.skaters {
+    display: flex;
+    
+
+}
+
+.box1 {
+    /* width: 50px;
+    height: 50px; */
+    flex-grow: 1;
+    background-image: url('assets/sk8er-4.png');
+}
+/*
+psuedo element and class aare different
+*/
